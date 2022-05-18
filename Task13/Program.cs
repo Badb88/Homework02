@@ -13,5 +13,5 @@ if (number < 100)
 }
 else
 {
-    Console.WriteLine(number % 10);
+    Console.WriteLine($"Третья цифра: {number.ToString()[2]}");
 }
