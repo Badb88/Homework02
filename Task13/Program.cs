@@ -9,7 +9,7 @@ Console.WriteLine("Введите любое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number < 100)
 {
-    Console.WriteLine("Третьего числа нет.");
+    Console.WriteLine("Третьей цифры нет.");
 }
 else
 {
