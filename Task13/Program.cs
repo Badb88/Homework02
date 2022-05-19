@@ -7,11 +7,13 @@
 
 Console.WriteLine("Введите любое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number < 100)
+int i = number;
+for (i=number; i>1000; i=i/10);
+if (i<100)
 {
     Console.WriteLine("Третьей цифры нет.");
 }
 else
 {
-    Console.WriteLine($"Третья цифра: {number.ToString()[2]}");
+    Console.WriteLine(i%10);
 }
